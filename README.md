@@ -1,1 +1,1 @@
-# js-tools
+# js-config
