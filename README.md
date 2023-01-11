@@ -6,7 +6,7 @@ Comes with ready to use
 
 ## Setting up
 1) Import this package by 
-`yarn add git@github.com:GlossGenius/js-linting.git`
+`yarn add -D https://github.com/GlossGenius/js-linting`
 
 2) Add any unmet peer deps manually
 
