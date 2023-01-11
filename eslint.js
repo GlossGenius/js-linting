@@ -10,9 +10,9 @@ module.exports = {
     "plugin:cypress/recommended",
     "plugin:sonarjs/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:react-hooks/recommended",
     "next",
-    "prettier"
+    "prettier",
+    "plugin:react-hooks/recommended",
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
