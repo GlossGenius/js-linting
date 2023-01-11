@@ -22,10 +22,6 @@ module.exports = {
     "ecmaVersion": 13,
     "sourceType": "module"
   },
-  "globals": {
-    "__DEV__": true,
-    "__CODE_VERSION__": true
-  },
   "plugins": ["react", "simple-import-sort", "prettier"],
   "rules": {
     "react/jsx-filename-extension": [
