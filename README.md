@@ -4,6 +4,8 @@ Comes with ready to use
 - eslint config
 - prettier config
 
+for JS/TS + React projects.
+
 ## Setting up
 1) Import this package by 
 `yarn add -D https://github.com/GlossGenius/js-linting`
