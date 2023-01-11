@@ -32,7 +32,7 @@ module.exports = {
     "import/no-anonymous-default-export": "off",
     "no-empty-function": ["error", { "allow": ["arrowFunctions"] }],
     "no-use-before-define": ["error"],
-    "no-unused-vars": ["error"],
+    "no-unused-vars": ['error', { varsIgnorePattern: '_' }],
     "prettier/prettier": "error",
     "react-hooks/exhaustive-deps": ["error"],
     "react/jsx-props-no-spreading": [
@@ -75,7 +75,7 @@ module.exports = {
 
         // turn off js rules to enable ts rules
         "no-unused-vars": "off",
-        "@typescript-eslint/no-unused-vars": ["error"],
+        "@typescript-eslint/no-unused-vars": ['error', { varsIgnorePattern: '_' }],
 
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": ["error"],
@@ -107,9 +107,6 @@ module.exports = {
         "plugin:@typescript-eslint/recommended-requiring-type-checking"
       ]
     }
-  ],
-  "settings": {
-    "import/resolver": "webpack"
-  }
+  ]
 }
   
