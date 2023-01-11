@@ -10,7 +10,6 @@ module.exports = {
     "plugin:cypress/recommended",
     "plugin:sonarjs/recommended",
     "plugin:jsx-a11y/recommended",
-    "next",
     "prettier",
     "plugin:react-hooks/recommended",
   ],
