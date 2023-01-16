@@ -37,14 +37,7 @@ module.exports = {
     "react/jsx-props-no-spreading": [
       "error",
       {
-        "html": "ignore",
-        "exceptions": [
-          "TextField",
-          "Dropdown",
-          "PortfolioImage",
-          "Image",
-          "Service"
-        ]
+        "html": "ignore"
       }
     ],
     "import/no-extraneous-dependencies": [
