@@ -52,7 +52,7 @@ module.exports = {
       }
     ],
     "prefer-template": "error",
-    "quotes": ["error", "double"],
+    "quotes": ["error", "double", { allowTemplateLiterals: true }],
     "no-console": ["error", { "allow": ["warn", "error"] }],
     "newline-after-var": "error",
     "react/prop-types": ["error", { "skipUndeclared": true }] // only lint on files that have prop types
